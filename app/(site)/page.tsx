@@ -6,9 +6,9 @@ import Link from "next/link"
 export default async function Home() {
 
   const projects = await getProjects()
-  console.log(projects)
+  
   return (
-    <div className="max-w-5xl mx-auto py-20 px-10">
+    <div >
       <h1 className="text-7xl font-extrabold">Hello I&apos;m <span className="bg-gradient-to-r from-green-400 via-lime-400 to-blue-600 bg-clip-text text-transparent">Alexei</span>!</h1>
     <p className="mt-3 text-xl text-gray-500">Thanks for visiting my website!</p>
 
